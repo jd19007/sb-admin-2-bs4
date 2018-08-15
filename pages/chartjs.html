@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SB Admin 2 - Bootstrap Admin Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../vendor/bootstrap/css/glyphicons.css" rel="stylesheet">
+	
+	<!-- Page level plugin CSS-->
+    <link href="../vendor/datatables/dataTables.bootstrap4.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+
+    <!-- Custom fonts for this template-->
+    <link href="../vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body id="page-top">
+
+
+        <nav class="navbar navbar-expand navbar-light bg-light static-top">
+
+      <a class="navbar-brand mr-1" href="index.html">SB Admin V2.0</a>
+
+      <button class="btn btn-link btn-sm order-1 order-sm-0" id="sidebarToggle" href="#">
+        <i class="fas fa-bars"></i>
+      </button>
+
+      <!-- Navbar Search -->
+      <div class="d-none d-md-inline-block form-inline ml-auto mr-0 mr-md-3 my-2 my-md-0">
+       
+      </div>
+
+      <!-- Navbar -->
+			
+      <ul class="navbar-nav ml-auto ml-md-0">
+        <li class="nav-item dropdown no-arrow mx-1">
+          <a class="nav-link dropdown-toggle" href="#" id="messagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-envelope fa-fw"></i>
+            <span class="badge badge-danger">7</span>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right alerts-dropdown" aria-labelledby="messagesDropdown">
+            <div class="dropdown-item">
+                                    <strong>John Smith</strong>
+                                    <span class="float-right text-muted">
+                                        <em>Yesterday</em>
+                                    </span>
+                                </div>
+                                <div class="dropdown-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+            <div class="dropdown-divider"></div>
+                                <div class="dropdown-item">
+                                    <strong>John Smith</strong>
+                                    <span class="float-right text-muted">
+                                        <em>Yesterday</em>
+                                    </span>
+                                </div>
+                                <div class="dropdown-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+            <div class="dropdown-divider"></div>
+                                <div class="dropdown-item">
+                                    <strong>John Smith</strong>
+                                    <span class="float-right text-muted">
+                                        <em>Yesterday</em>
+                                    </span>
+                                </div>
+                                <div class="dropdown-item">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque eleifend...</div>
+            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-center" href="#">
+                                <strong>Read All Messages</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+          </div>
+        </li>
+		  <li class="nav-item dropdown no-arrow mx-1">
+          <a class="nav-link dropdown-toggle" href="#" id="tasksDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-tasks fa-fw"></i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right alerts-dropdown" aria-labelledby="tasksDropdown">
+            <div class="dropdown-item">
+                                      <p>
+                                        <strong>Task 1</strong>
+                                        <span class="float-right text-muted">40% Complete</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-striped bg-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+                                            <span class="sr-only">40% Complete (success)</span>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+            <div class="dropdown-divider"></div>
+                                
+                                <div class="dropdown-item">
+									    <p>
+                                        <strong>Task 2</strong>
+                                        <span class="float-right text-muted">20% Complete</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-striped bg-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
+                                            <span class="sr-only">20% Complete</span>
+                                        </div>
+                                    </div>
+			  </div>
+            <div class="dropdown-divider"></div>
+                                
+                                <div class="dropdown-item">
+			        <p>
+                                        <strong>Task 3</strong>
+                                        <span class="float-right text-muted">60% Complete</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-striped bg-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
+                                            <span class="sr-only">60% Complete (warning)</span>
+                                        </div>
+                                    </div>
+			  </div>
+            <div class="dropdown-divider"></div>
+                                
+                                <div class="dropdown-item">
+			         <p>
+                                        <strong>Task 4</strong>
+                                        <span class="float-right text-muted">80% Complete</span>
+                                    </p>
+                                    <div class="progress progress-striped active">
+                                        <div class="progress-bar progress-bar-striped bg-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                            <span class="sr-only">80% Complete (danger)</span>
+                                        </div>
+                                    </div>
+			  </div>
+            <div class="dropdown-divider"></div>
+                            <a class="dropdown-item text-center" href="#">
+                                <strong>Read All Tasks</strong>
+                                <i class="fa fa-angle-right"></i>
+                            </a>
+          </div>
+        </li>
+        <li class="nav-item dropdown no-arrow mx-1">
+          <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-bell fa-fw"></i>
+            <span class="badge badge-danger">9+</span>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right alerts-dropdown" aria-labelledby="alertsDropdown">
+			<div class="dropdown-item">
+				<i class="fa fa-comment fa-fw"></i> New Comment
+				<span class="float-right text-muted small">4 minutes ago</span>
+			</div>
+			<div class="dropdown-divider"></div>
+			<div class="dropdown-item">
+				<i class="fa fa-twitter fa-fw"></i> 3 New Followers
+				<span class="float-right text-muted small">12 minutes ago</span>
+			</div>
+			<div class="dropdown-divider"></div>
+			<div class="dropdown-item">
+				<i class="fa fa-envelope fa-fw"></i> Message Sent
+				<span class="float-right text-muted small">4 minutes ago</span>
+			</div>
+			<div class="dropdown-divider"></div>
+			<div class="dropdown-item">
+				<i class="fa fa-tasks fa-fw"></i> New Task
+				<span class="float-right text-muted small">4 minutes ago</span>
+			</div>
+			<div class="dropdown-divider"></div>
+			<div class="dropdown-item">
+				<i class="fa fa-upload fa-fw"></i> Server Rebooted
+				<span class="float-right text-muted small">4 minutes ago</span>
+			</div>
+			<div class="dropdown-divider"></div>
+			<a class="dropdown-item" href="#">
+				<strong>See All Alerts</strong>
+				<i class="fa fa-angle-right"></i>
+			</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown no-arrow">
+          <a class="nav-link dropdown-toggle" href="#" id="userDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-user-circle fa-fw"></i>
+          </a>
+          <div class="dropdown-menu dropdown-menu-right user-dropdown" aria-labelledby="userDropdown">
+            <a class="dropdown-item" href="#"><i class="fa fa-user fa-fw"></i> User Profile</a>
+            <a class="dropdown-item" href="#"><i class="fas fa-cog fa-fw"></i> Settings</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal"><i class="fas fa-sign-out-alt fa-fw"></i> Logout</a>
+          </div>
+        </li>
+      </ul>
+
+    </nav>
+
+
+        <div id="wrapper">
+			 <!-- Sidebar -->
+      <ul class="sidebar navbar-nav">
+		  <li class="nav-item sidebar-search">
+			  <div class="input-group custom-search-form">
+				  <input type="text" class="form-control" placeholder="Search for..." aria-label="Search" aria-describedby="basic-addon2">
+				  <div class="input-group-append">
+					<button class="btn btn-primary" type="button">
+					  <i class="fas fa-search"></i>
+					</button>
+				  </div>
+			</div>
+		  </li>
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">
+            <i class="fas fa-fw fa-tachometer-alt"></i>
+            <span>Dashboard</span>
+          </a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="pagesDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <i class="fas fa-fw fa-folder"></i>
+            <span>Pages</span>
+          </a>
+          <div class="dropdown-menu" aria-labelledby="pagesDropdown">
+            <h6 class="dropdown-header">Login Screens:</h6>
+            <a class="dropdown-item" href="login.html">Login</a>
+            <a class="dropdown-item" href="register.html">Register</a>
+            <a class="dropdown-item" href="forgot-password.html">Forgot Password</a>
+            <div class="dropdown-divider"></div>
+            <h6 class="dropdown-header">Other Pages:</h6>
+            <a class="dropdown-item" href="404.html">404 Page</a>
+            <a class="dropdown-item" href="blank.html">Blank Page</a>
+            <a class="dropdown-item" href="icons.html">Icons Page</a>
+          </div>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="chartjs.html">
+            <i class="fas fa-fw fa-chart-area"></i>
+            <span>Charts</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="tables.html">
+            <i class="fas fa-fw fa-table"></i>
+            <span>Tables</span></a>
+        </li>
+      </ul>
+			<div id="content-wrapper">
+
+        <div class="container-fluid">
+			<!-- Charts Start -->
+<div class="page-head">
+                        <h4 class="my-2 bd-title">Blank Page</h4>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-header"><i class="fas fa-chart-area"></i> Team Total Completed</h5>           
+                                    <div class="card-body">
+                                        <canvas id="team-chart"></canvas>
+                                    </div>
+									<div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-header"><i class="fab fa-soundcloud"></i>
+
+ Yearly Sales</h5>           
+                                    <div class="card-body">
+                                        <canvas id="sales-chart"></canvas>
+                                    </div>
+									<div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-header"><i class="fas fa-broadcast-tower"></i>
+
+ Radar chart</h5>           
+                                    <div class="card-body">
+                                        <canvas id="radarChart"></canvas>
+                                    </div>
+									<div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-header"><i class="fas fa-chart-bar"></i> Bar chart</h5>           
+                                    <div class="card-body">
+                                        <canvas id="barChart"></canvas>
+                                    </div>
+									<div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-header"><i class="fas fa-chart-line"></i> Line chart</h5>           
+                                    <div class="card-body">
+                                        <canvas id="lineChart"></canvas>
+                                    </div>
+									<div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-header"><i class="fas fa-chart-pie"></i> Pie chart</h5>           
+                                    <div class="card-body">
+                                        <canvas id="pieChart"></canvas>
+                                    </div>
+									<div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-header"><i class="fas fa-cookie-bite"></i>
+
+ Doughut chart</h5>           
+                                    <div class="card-body">
+                                        <canvas id="doughutChart"></canvas>
+                                    </div>
+									<div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-header"><i class="fas fa-snowflake"></i>
+
+ Polar chart</h5>           
+                                    <div class="card-body">
+                                        <canvas id="polarChart"></canvas>
+                                    </div>
+									<div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-header"><i class="fas fa-chart-bar"></i> Single Bar Chart</h5>           
+                                    <div class="card-body">
+                                        <canvas id="singelBarChart"></canvas>
+                                    </div>
+									<div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12">
+                            <div class="card mb-3">
+                                <div class="card-body">
+                                    <h5 class="card-header"><i class="fab fa-dribbble"></i>
+
+Bubble Chart</h5>           
+                                    <div class="card-body">
+                                        <canvas id="bubble-chart"></canvas>
+                                    </div>
+									<div class="card-footer small text-muted">Updated yesterday at 11:59 PM</div>
+                                </div>
+                            </div>
+                        </div>
+						
+						
+    </div>				</div>
+				</div>
+			<!-- Scroll to Top Button-->
+			<a class="scroll-to-top rounded" href="#page-top" style="display: inline;">
+      <i class="fas fa-angle-up"></i>
+    </a>
+			<footer class="sticky-footer">
+          <div class="container my-auto">
+            <div class="copyright text-center my-auto">
+              <span>Copyright © Your Website 2018</span>
+            </div>
+          </div>
+        </footer>
+				</div>
+	
+   <!-- Bootstrap core JavaScript-->
+    <script src="../vendor/jquery/jquery.min.js"></script>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Core plugin JavaScript-->
+    <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Page level plugin JavaScript-->
+    <script src="../vendor/chart.js/Chart.min.js"></script>
+    <script src="../vendor/datatables/jquery.dataTables.js"></script>
+    <script src="../vendor/datatables/dataTables.bootstrap4.js"></script>
+
+    <!-- Custom scripts for all pages-->
+    <script src="../js/sb-admin-2.js"></script>
+
+    <!-- Demo scripts for this page-->
+    <script src="../js/demo/datatables-demo.js"></script>
+    <script src="../js/demo/chart-area-demo.js"></script>
+
+    <script src="../js/demo/chartjs-demo.js"></script><!-- -->
+
+</body>
+
+</html>
