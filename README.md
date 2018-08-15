@@ -5,7 +5,6 @@
 ## Getting Started
 
 To begin using this template, choose one of the following options to get started:
-* [Download the latest release on Start Bootstrap](http://startbootstrap.com/template-overviews/sb-admin-2/)
 * Clone the repo: `git clone https://github.com/jondavis0787/sb-admin-2-bs4.git`
 * Fork the repo
 
